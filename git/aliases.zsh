@@ -18,3 +18,6 @@ alias gcb='git copy-branch-name'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gac='git add -A && git commit -m'
+alias gs='git status --short --branch'
+alias gl='git log --oneline --decorate'
+alias glg='git log --graph --pretty=format:"%Cred%h%Creset %an -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset" --abbrev-commit --date=relative'
